@@ -44,3 +44,37 @@ yes
 
 no
 ```
+
+### food.pl
+
+```
+| ?- [`food.pl`].
+
+yes
+| ?- food_type(What, meat).
+
+What = spam ? ;
+
+What = sausage ? ;
+
+no
+| ?- food_flavor(sausage, sweet).
+
+no
+| ?- flavor(sweet, What).
+
+What = dessert ? ;
+
+What = soda
+
+yes
+| ?- food_flavor(What, savory).
+
+What = velveeta ? ;
+
+What = spam ? ;
+
+What = sausage ? ;
+
+no
+```
