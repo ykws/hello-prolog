@@ -47,7 +47,7 @@ no
 
 ### food.pl
 
-```
+```food.pl
 | ?- [`food.pl`].
 
 yes
