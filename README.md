@@ -78,3 +78,18 @@ What = sausage ? ;
 
 no
 ```
+
+### map.pl
+
+```map.pl
+| ?- [`map.pl`]
+
+yes
+| ?- coloring(Alabama, Mississippi, Georgia, Tennessee, Florida).
+
+Alabama = blue
+Florida = green
+Georgia = red
+Mississippi = red
+Tennessee = green ?
+```
